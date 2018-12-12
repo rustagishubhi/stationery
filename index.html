@@ -21,24 +21,60 @@
    </head>
 
    <body>
-    <div>
-      <div class="row row-content centered">
-        <div class="col-lg-6">
-          <h1 class="heading">Welcome to Stationery, LNMIIT</h1>
+    <div class="container">
+      <div class="row row-content">
+        <br><br><br><br>
+      </div>
+      <div class="row row-content">
+        <div class="col-md-4">
+          
         </div>
-        <div class="col-lg-6">
-          <ul>
-            <a href="./pages/check.html"><li class="option1">CHECK AVAILABILITY</li></a><br>
-            <a href="./pages/order.html"><li class="option2">ORDER AN ITEM</li></a><br>
-            <a href="./pages/request.html"><li class="option3">REQUEST AN ITEM</li></a><br>
-          </ul>
-        </div>
+        <div class="modal-content col-md-4">
+                <div class="modal-header">
+                    <h4 class="modal-title"> Login </h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="form-group">
+                                    <label for="exampleInputEmail3" class="col-sm-3 mr-1 ml-1">Email </label>
+                                    <div style="float: right;">
+                                      <input type="email" class="form-control form-control-sm ml-1" id="exampleInputEmail3" placeholder="Enter email">
+                                    </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="form-group">
+                                <label for="exampleInputPassword3" class="col-sm-4 mr-1 ml-1">Password</label>
+                                <div style="float: right;">
+                                  <input type="password" class="form-control form-control-sm" id="exampleInputPassword3" placeholder="Password">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div>
+                                <div class="form-check">
+                                  <input class="form-check-input ml-1 mr-1" type="checkbox">
+                                    <label class="form-check-label ml-4 mr-1"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1 mr-1"><a href="main.html">Sign in</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+              
+            </div>
       </div>
     </div>
 
 	  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
    </body>
 </html>
